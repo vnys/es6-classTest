@@ -22,8 +22,15 @@
     "lodash": "~2.4.1",
     "gulp-traceur": "~0.9.0",
     "gulp": "~3.8.6",
-    "gulp-watch": "~0.6.9",
     "gulp-connect": "~2.0.6",
-    "gulp-shell": "~0.2.9"
-  }
+    "gulp-shell": "~0.2.9",
+    "jshint": "~2.5.2",
+    "jshint-stylish": "~0.4.0",
+    "gulp-jshint": "~1.8.3"
+},
+"keywords": [
+    "jshint",
+    "traceur",
+    "gulp"
+]
 }
