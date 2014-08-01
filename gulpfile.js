@@ -14,7 +14,7 @@ gulp.task('connect', function() {
 })
 
 gulp.task('traceur', shell.task([
-    './node_modules/traceur/traceur --out www/js/build.js www/js/app.js'
+    './node_modules/traceur/traceur --out www/js/build.js www/js/app.js --experimental --source-maps'
 ]))
 
 gulp.task('reload', function() {
